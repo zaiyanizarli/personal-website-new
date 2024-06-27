@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #FFFFFF;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        nav a.active {
+            color: #007bff;
+            font-weight: bold;
+        }
+        .search, .icons {
+            display: flex;
+            align-items: center;
+        }
+        .search input {
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 5px 10px;
+            margin-right: 10px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .content div {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .content img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">ZAIYANI ZARLI</div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="personal.html">Personal</a>
+            <a href="family.html">Family</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="hobby.html">Hobby</a>
+            <a href="friends.html">Friends</a>
+            <a href="education.html">Education</a>
+        </nav>
+        
+        <div class="icons">
+        </div>
+    </header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #fdf5e6 0%, #d2b48c 100%);
+            color: #333;
+        }
+
+        header {
+            background-color: #FFFFFF;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .section {
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            margin: 20px 0;
+            text-align: center;
+            color: #333;
+        }
+
+        .player {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .turntable {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .song-info {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .controls button {
+            background-color: transparent;
+            border: none;
+            color: #007bff;
+            cursor: pointer;
+        }
+
+        .highschools, .matriks {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .highschool-cards, .matriks-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 10px 0;
+        }
+
+        .highschool, .matriks {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 10px;
+            flex: 1 1 calc(33.333% - 20px);
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        .highschool img, .matriks img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        ol, ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        ol li, ul li {
+            margin: 5px 0;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="section highschools">
+            <h2>High School</h2>
+            <ul class="highschool-cards">
+                <li class="highschool">
+                    <img src="img/highschool1.jpg" alt="SMKAB 1">
+                    <p>SMKAB</p>
+                </li>
+                <li class="highschool">
+                    <img src="img/highschool2.jpg" alt="SMKAB 2">
+                    <p>SMKAB</p>
+                </li>
+                <li class="highschool">
+                    <img src="img/highschool3.jpg" alt="SMKAB 3">
+                    <p>SMKAB</p>
+                </li>
+            </ul>
+        </div>
+        <div class="section matriks">
+            <h2>Matriks</h2>
+            <ol class="matriks-cards">
+                <li class="matriks">
+                    <img src="img/matriks1.jpg" alt="MATRIKS 1">
+                    <p>KMK</p>
+                </li>
+                <li class="matriks">
+                    <img src="img/matriks2.jpg" alt="MATRIKS 2">
+                    <p>KMK</p>
+                </li>
+                <li class="matriks">
+                    <img src="img/matriks3.jpg" alt="MATRIKS 3">
+                    <p>KMK</p>
+                </li>
+            </ol>
+        </div>
+    </div>
+<footer>
+       <center><p>&copy; 2024 Zaiyani Zarli.Copyright. All rights reserved.</p></center>
+    </footer>
+
+</body>
+</html>

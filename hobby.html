@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #FFFFFF;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        nav a.active {
+            color: #007bff;
+            font-weight: bold;
+        }
+        .search, .icons {
+            display: flex;
+            align-items: center;
+        }
+        .search input {
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 5px 10px;
+            margin-right: 10px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .content div {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .content img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">ZAIYANI ZARLI</div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="personal.html">Personal</a>
+            <a href="family.html">Family</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="hobby.html">Hobby</a>
+            <a href="friends.html">Friends</a>
+            <a href="education.html">Education</a>
+        </nav>
+        
+        <div class="icons">
+        </div>
+    </header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #fdf5e6 0%, #d2b48c 100%);
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .section {
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            margin: 20px 0;
+            text-align: center;
+            color: #333;
+        }
+
+        .player {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .turntable {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .turntable video {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .song-info {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .controls button {
+            background-color: transparent;
+            border: none;
+            color: #007bff;
+            cursor: pointer;
+        }
+
+        .artists, .movies, .albums, .songs {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .artist-cards, .movie-cards, .album-cards, .song-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 10px 0;
+        }
+
+        .artist, .movie, .album, .song {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 10px;
+            flex: 1 1 calc(33.333% - 20px);
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        .artist img, .movie img, .album img, .song img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        ol, ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        ol li, ul li {
+            margin: 5px 0;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .books-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .books {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .book {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .book img {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 10px;
+        }
+
+        .book p {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .synopsis-table {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px 0;
+        }
+
+        .synopsis-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .synopsis-table th, .synopsis-table td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        .synopsis-table th {
+            background-color: #f0e68c;
+        }
+
+        .synopsis-table td {
+            background-color: #faf0e6;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="section music">
+            <h2>Music</h2>
+            <div class="player">
+                <div class="turntable">
+                    <video src="audio/girlsneverdie.mp4" controls autoplay loop muted></video>
+                </div>
+                <div class="song-info">
+                    <h2>Girls Never Die</h2>
+                    <p>tripleS</p>
+                    <p>0:00 - 3:44</p>
+                </div>
+                <div class="controls">
+                    <button>&laquo;</button>
+                    <button>||</button>
+                    <button>&raquo;</button>
+                </div>
+            </div>
+        </div>
+        <div class="section artists">
+            <h2>Favorite Artists</h2>
+            <ul class="artist-cards">
+                <li class="artist">
+                    <img src="img/artist1.jpg" alt="tripleS">
+                    <p>tripleS</p>
+                </li>
+                <li class="artist">
+                    <img src="img/artist2.jpg" alt="Nmixx">
+                    <p>Nmixx</p>
+                </li>
+                <li class="artist">
+                    <img src="img/artist3.jpg" alt="Billlie">
+                    <p>Billlie</p>
+                </li>
+            </ul>
+        </div>
+        <div class="section movies">
+            <h2>Favorite Movies</h2>
+            <ol class="movie-cards">
+                <li class="movie">
+                    <img src="img/movie1.jpg" alt="Shogun">
+                    <p>Shogun</p>
+                </li>
+                <li class="movie">
+                    <img src="img/movie2.jpg" alt="Inside Out">
+                    <p>Inside Out</p>
+                </li>
+                <li class="movie">
+                    <img src="img/movie3.jpg" alt="Monster">
+                    <p>Monster</p>
+                </li>
+            </ol>
+        </div>
+        <div class="section albums">
+            <h2>Favorite Albums</h2>
+            <ol class="album-cards">
+                <li class="album">
+                    <img src="img/album1.jpg" alt="ASSEMBLE 24">
+                    <p>ASSEMBLE 24</p>
+                    <p>tripleS</p>
+                </li>
+                <li class="album">
+                    <img src="img/album2.jpg" alt="YoYo">
+                    <p>YoYo</p>
+                    <p>RESCENE</p>
+                </li>
+                <li class="album">
+                    <img src="img/album3.jpg" alt="The Billage of Perception">
+                    <p>The Billage of Perception</p>
+                    <p>Billlie</p>
+                </li>
+            </ol>
+        </div>
+        <div class="section songs">
+            <h2>Favorite Songs</h2>
+            <ul class="song-cards">
+                <li class="song"> 
+                    <img src="img/song1.jpg" alt="Just Do It">
+                    <p>Just Do It</p>
+                    <p>tripleS NXT</p>
+                </li>
+                <li class="song">
+                    <img src="img/song2.jpg" alt="Rising">
+                    <p>Rising</p>
+                    <p>tripleS</p>
+                </li>
+                <li class="song">
+                    <img src="img/song3.jpg" alt="Midas Touch">
+                    <p>Midas Touch</p>
+                    <p>Kiss Of Life</p>
+                </li>
+            </ul>
+        </div>
+        <div class="section books-container">
+            <h2>Books</h2>
+            <div class="books">
+                <div class="book">
+                    <img src="img/book1.jpg" alt="When Breath Becomes Air">
+                    <p>When Breath Becomes Air</p>
+                </div>
+                <div class="book">
+                    <img src="img/book2.jpg" alt="My Medicine">
+                    <p>My Medicine</p>
+                </div>
+                <div class="book">
+                    <img src="img/book3.jpg" alt="The Silent Patient">
+                    <p>The Silent Patient</p>
+                </div>
+            </div>
+            <div class="synopsis-table">
+                <table>
+                    <tr>
+                        <th>Title</th>
+                        <th>Synopsis</th>
+                    </tr>
+                    <tr>
+                       
+                      <td>When Breath Becomes Air</td>
+                      <td>A memoir by Paul Kalanithi, a neurosurgeon diagnosed with terminal lung cancer, reflecting on life and facing death.</td>
+                    </tr>
+                    <tr>
+                       <td>My Medicine</td>
+                       <td>Charissa Ong Ty's collection of poems and short stories about love, heartbreak, and healing.</td>
+                    </tr>
+                    <tr>
+                     <td>The Silent Patient</td>
+                     <td>A psychological thriller by Alex Michaelides about a woman who stops speaking after being accused of murdering her husband.</td>
+                 
+
+                 </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+<footer>
+       <center><p>&copy; 2024 Zaiyani Zarli. Copyright. All rights reserved.</p></center>
+    </footer>
+
+</body>
+</html>
